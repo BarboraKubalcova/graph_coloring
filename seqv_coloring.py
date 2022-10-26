@@ -38,8 +38,7 @@ def safe_color(neighbors_list, conections, color):
         if conections[neighbor][0] == color:
             return False
     return True
-
-
+    
 """
     Funkcia vrati uz zafarbeny graf. 
     @conections - zoznam prepojeni
